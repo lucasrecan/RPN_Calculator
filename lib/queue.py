@@ -22,7 +22,7 @@ skin_open=False
 aide_open=False
 
 
-def la_file(fen_choix):
+def win_queue(fen_choix):
     fen_choix.destroy()
 
     def show_file():
@@ -119,7 +119,7 @@ def la_file(fen_choix):
 
     fen_file=Tk()
     fen_file.title("File")
-    fen_file.iconbitmap(f"{chemin}/logo_hp.ico")
+    fen_file.iconbitmap(f"{chemin}/../assets/logo_hp.ico")
     fen_file.configure(background="#32394B")
     fen_file.iconbitmap(f"{chemin}/logo_hp.ico")
     texte= Text(fen_file,width = 35, height = 10,background="#BDC2A4", selectbackground="#BDC2A4", selectforeground="black")
@@ -151,4 +151,4 @@ def la_file(fen_choix):
 
 if __name__ == '__main__':
     fen_choix = Tk()
-    la_file(fen_choix)
+    win_queue(fen_choix)

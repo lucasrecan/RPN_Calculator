@@ -21,7 +21,7 @@ liste_file=["*","*","*","*","*","*","*","*"]
 skin_open=False
 aide_open=False
 
-def la_pile(fen_choix):
+def win_stack(fen_choix):
     #Destruction de la fenêtre de choix
     fen_choix.destroy()
     def show():
@@ -846,7 +846,7 @@ def la_pile(fen_choix):
     fen.configure(background="#32394B")
     fen.resizable(width=False, height=False)
     fontStyle = font.Font(family="Courier", size=15)
-    fen.iconbitmap(f"{chemin}/logo_hp.ico")
+    fen.iconbitmap(f"{chemin}/../assets/logo_hp.ico")
     #Affichage des erreurs
     affich_erreurs=Entry(fen,width=23, textvariable="", state="disabled", font=fontStyle,disabledbackground="#BDC2A4", disabledforeground="black")
     affich_erreurs.grid(row=0, column=0, columnspan=6)
@@ -1344,4 +1344,4 @@ def la_pile(fen_choix):
 
 if __name__ == '__main__':
     fen_choix = Tk()
-    la_pile(fen_choix)
+    win_stack(fen_choix)
