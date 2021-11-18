@@ -1,5 +1,5 @@
 # RPN_Calculator
-Here's my biggest work from my last year in highschool. It's till in progress, because I can't find some of the code (for the queue and the chained list) and I'm still translating (french to english) and commenting it.
+Here's my biggest work from my last year in highschool. It's still in progress, because I can't find some of the code (for the queue and the chained list) and I'm still translating (french to english) and commenting it.
 I know it would need a graphical redesign.
 
 
